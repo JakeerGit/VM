@@ -31,5 +31,6 @@ http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/m
         <logger message="#[flowVars.FlowVar]" level="INFO" doc:name="Logger"/>
 		<logger message="#[flowVars.FlowVar]This is DEV GIT" level="INFO" doc:name="Logger"/>
         <logger message="#[&quot;One Logger is ADDED for GIT&quot;]" level="INFO" doc:name="Logger"/>
+        <set-variable variableName="SubFlow1" value="#[&quot;Variable for GIT Purpose&quot;]" doc:name="Variable"/>
     </flow>
 </mule>
