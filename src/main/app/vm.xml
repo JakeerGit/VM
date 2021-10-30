@@ -30,5 +30,6 @@ http://www.mulesoft.org/schema/mule/ee/tracking http://www.mulesoft.org/schema/m
         <logger message="#[sessionVars.FlowSessionVar]" level="INFO" doc:name="Logger"/>
         <logger message="#[flowVars.FlowVar]" level="INFO" doc:name="Logger"/>
 		<logger message="#[flowVars.FlowVar]This is DEV GIT" level="INFO" doc:name="Logger"/>
+        <logger message="#[&quot;One Logger is ADDED for GIT&quot;]" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
